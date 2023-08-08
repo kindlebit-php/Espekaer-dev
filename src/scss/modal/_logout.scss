@@ -1,0 +1,625 @@
+// .delete-modal {
+//     .btn-close {
+//       z-index: 99;
+//     }
+  
+//     &.view-cart {
+//       .modal-dialog {
+//         float: right;
+//         clear: both;
+//         padding: 0;
+//         margin-top: 0;
+//         width: 100%;
+//         max-width: 638px;
+  
+//         @media (max-width:767px) {
+//           width: 95%;
+//           max-width: 100%;
+//         }
+//       }
+  
+//       .product-items {
+//         margin-bottom: 20px;
+//       }
+  
+//       .modal-body {
+//         height: 72vh;
+//         padding: 0;
+//         overflow: auto;
+//       }
+  
+//       .modal-header {
+//         position: unset;
+//       }
+  
+//       p {
+//         margin-top: 10px;
+//         margin-bottom: 30px;
+//       }
+  
+//       .modal-footer {
+//         position: absolute;
+//         bottom: 0;
+//         background: #F6F6F6;
+//         left: 0;
+//         padding: 20px 30px !important;
+  
+//         @media (max-width:767px) {
+//           position: static;
+//           padding: 20px 15px !important;
+//         }
+//       }
+//     }
+  
+//     .modal-content {
+//       padding: 7px 21px 23px;
+//       border-radius: 12px;
+  
+//       @media (max-width: 480px) {
+//         padding: 7px 15px 23px;
+//       }
+//     }
+  
+//     .modal-dialog {
+//       padding: 37px 22px;
+//       width: 432px;
+//       position: relative;
+//       z-index: 0;
+  
+//       @media (max-width: 600px) {
+//         width: 100%;
+//       }
+  
+//       @media (max-width: 480px) {
+//         padding: 37px 0.7rem;
+//         margin: 0;
+  
+//         .login-area {
+//           padding-bottom: 0;
+//         }
+//       }
+//     }
+  
+//     .modal-body {
+//       font-size: 20px;
+//       color: #2d3748;
+//       text-align: center;
+//       font-weight: 600;
+//       padding-top: 28px;
+//       padding-bottom: 18px;
+//       padding-left: 15px;
+//       padding-right: 15px;
+//       line-height: 1.2;
+//     }
+  
+//     .modal-footer {
+//       border: 0;
+//       text-align: center;
+//       width: 100%;
+//       display: block;
+  
+//       .btn-cust {
+//         color: #999;
+//         font-size: 1.3rem;
+//         padding: 10px 1rem;
+//         text-align: center;
+//         background-color: transparent;
+//         border: 1px solid #303030;
+//         border-radius: 8px;
+//         box-shadow: 0px 8px 24px rgb(149 157 165 / 20%);
+//         transition: all 0.5s ease;
+//         width: 130px;
+  
+//         &:first-child {
+//           margin-right: 1rem;
+//         }
+  
+//         &:last-child {
+//           background: linear-gradient(90deg, #303030 0%, #5a5757 100%);
+//           color: #fff;
+//         }
+  
+//         &:hover {
+//           background: linear-gradient(90deg, #EDC967 0%, #e6ba43 100%);
+//           color: #303030;
+//         }
+  
+//         @media (max-width:480px) {
+//           width: auto;
+//         }
+//       }
+  
+//       .btn-secondary {
+//         background: transparent;
+//         border: 1px solid #5a5757;
+//         color: #303030;
+//         font-size: 1.6rem;
+//         font-weight: bold;
+//         padding: 1rem 3rem;
+//         margin: 0 0.7rem;
+//       }
+  
+//       .btn-primary {
+//         font-size: 1.6rem;
+//         font-weight: bold;
+//         padding: 1rem 3rem;
+//         margin: 0 0.7rem;
+//       }
+//     }
+  
+//     .modal-header {
+//       border-bottom: 0;
+//       position: absolute;
+//       right: 0;
+//       top: 10px;
+//     }
+  
+//     .btn-close {
+//       width: 37px;
+//       line-height: 2;
+//       cursor: pointer;
+//       opacity: 1;
+//       font-size: 18px;
+  
+//       &:focus {
+//         border: 0;
+//         outline: 0;
+//         box-shadow: none;
+//       }
+//     }
+  
+//     .trash-img {
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       margin-bottom: 2rem;
+  
+//       img {
+//         width: 7rem;
+//         cursor: pointer;
+//       }
+//     }
+//   }
+  
+  
+  // .book-modal {
+  //   button.btn-close {
+  //     position: absolute;
+  //     top: 20px;
+  //     right: 20px;
+  //   }
+  
+  //   .modal-header {
+  //     justify-content: flex-start;
+  //   }
+  
+  //   // .modal-body {
+  //   //   padding: 20px 0;
+  
+  //   //   .react-calendar__navigation {
+  //   //     margin: 0 0 20px;
+  
+  //   //     .react-calendar__navigation__arrow {
+  //   //       display: none;
+  //   //     }
+  
+  //   //     button.react-calendar__navigation__label {
+  //   //       background: #EDC967;
+  //   //       padding: 6px 10px;
+  //   //       border: 1px solid #5a5757;
+  //   //       border-radius: 10px;
+  //   //     }
+  
+  //   //   }
+  
+  //   //   .react-calendar__month-view__weekdays__weekday {
+  //   //     font-weight: 600;
+  //   //     font-size: 16px;
+  //   //     color: #010101;
+  //   //     text-align: center;
+  
+  //   //     abbr {
+  //   //       text-decoration: none;
+  //   //     }
+  //   //   }
+  
+  //   //   .react-calendar {
+  //   //     width: 65%;
+  //   //     margin-right: 20px;
+  
+  //   //     @media (max-width:1024px) {
+  //   //       width: 55%;
+  //   //     }
+  
+  //   //     @media (max-width:767px) {
+  //   //       width: 100%;
+  //   //       margin: 0 0 15px !important;
+  //   //     }
+  
+  //   //     .react-calendar__tile {
+  //   //       font-size: 18px;
+  //   //       padding: 10px;
+  //   //       color: #000000;
+  //   //       background: transparent;
+  //   //       border-radius: 10px;
+  
+  //   //       &.react-calendar__tile--active {
+  //   //         color: #ffffff;
+  //   //         background: #f57b51;
+  //   //         border-radius: 10px;
+  //   //       }
+  //   //     }
+  //   //   }
+  //   // }
+  
+  //   .modal-dialog {
+  //     width: 1000px !important;
+  //     max-width: 100%;
+  
+  //     @media (max-width:1024px) {
+  //       width: 97% !important
+  //     }
+  
+  //     .d-flex {
+  //       align-items: flex-start;
+  //       justify-content: space-between;
+  
+  //       @media (max-width:767px) {
+  //         flex-direction: column;
+  //       }
+  //     }
+  //   }
+  
+  //   .time-piker {
+  //     flex: 1;
+  //     background: #F6F6F6;
+  //     border: 1px solid #DDDDDD;
+  //     border-radius: 15px;
+  //     padding: 21px;
+  //     max-width: 350px;
+  
+  //     @media (max-width:767px) {
+  //       max-width: 100%;
+  //       width: 100%;
+  //     }
+  
+  //     .d-flex {
+  //       align-items: center;
+  //       border-bottom: 1px solid #ddd;
+  
+  //       @media (max-width:767px) {
+  //         align-items: flex-start;
+  //       }
+  
+  //     }
+  
+  //     h4 {
+  //       font-weight: 600;
+  //       font-size: 18px;
+  //       line-height: 23px;
+  //       color: #010101;
+  //       margin: 0;
+  //     }
+  
+  //     .ant-picker {
+  //       background: transparent;
+  //       border: 0;
+  
+  //       .ant-picker-input {
+  //         flex-direction: row-reverse;
+  //       }
+  
+  //       input {
+  //         margin: 0;
+  //         color: #F57B51 !important;
+  
+  //         &::placeholder {
+  //           color: #F57B51 !important;
+  //           font-size: 18px;
+  //         }
+  //       }
+  
+  //       .ant-picker-suffix {
+  //         color: #F57B51 !important;
+  //         margin: 0 6px 0 0;
+  //         font-size: 18px;
+  //       }
+  //     }
+  
+  //     .s-n-s {
+  //       background: #FFFFFF;
+  //       border-radius: 13px;
+  //       padding: 10px;
+  //       margin: 10px 0 0;
+  
+  //       p {
+  //         margin: 0 0 5px;
+  //         font-weight: 500;
+  //         font-size: 16px;
+  //         line-height: 20px;
+  //         color: #010101;
+  //         opacity: 0.5;
+  //       }
+  
+  //       b {
+  //         font-weight: 800;
+  //         font-size: 20px;
+  //         line-height: 25px;
+  //         color: #010101;
+  //       }
+  //     }
+  //   }
+  
+  // }
+  
+  
+  // .map-modal {
+  //   .modal-header {
+  //     padding: 0;
+  //   }
+  
+  //   .modal-body {
+  //     .d-flex {
+  //       .map {
+  //         width: 49%;
+  
+  //         @media (max-width:767px) {
+  //           width: 100%;
+  //           margin: 0 0 30px;
+  //         }
+  
+  //         iframe {
+  //           width: 100%;
+  //           border: 1px solid #DDDDDD;
+  //           border-radius: 23px;
+  
+  //           @media (max-width:991px) {
+  //             border-radius: 10px;
+  //             height: 210px;
+  //           }
+  
+  //           @media (max-width:767px) {
+  //             border-radius: 5px;
+  //             height: 150px;
+  //           }
+  //         }
+  
+  //         p {
+  //           font-weight: 400;
+  //           font-size: 18px;
+  //           line-height: 23px;
+  //           color: #010101;
+  //           opacity: 0.6;
+  //           margin: 10px 0 0;
+  
+  //           @media (max-width:991px) {
+  //             font-size: 16px;
+  //             line-height: 1.5;
+  //           }
+  
+  //           br {
+  //             @media (max-width:767px) {
+  //               display: none;
+  //             }
+  //           }
+  //         }
+  //       }
+  
+  //       .map-add {
+  //         flex: 1;
+  //         margin: 0 0 0 30px;
+  
+  //         @media (max-width:767px) {
+  //           margin: 0;
+  //           width: 100%;
+  //         }
+  
+  //         .map-form {
+  //           .form-group {
+  //             .adress {
+  //               display: flex;
+  //               justify-content: space-between;
+  //               align-items: center;
+  
+  //               label {
+  //                 margin: 0;
+  //                 font-size: 20px;
+  //                 line-height: 24px;
+  //                 text-align: center;
+  //                 color: #010101;
+  //               }
+  
+  //               button {
+  //                 margin: 0;
+  //                 background: transparent;
+  //                 font-weight: 500;
+  //                 font-size: 16px;
+  //                 line-height: 20px;
+  //                 color: #F57B51;
+  //               }
+  //             }
+  
+  //             textarea,
+  //             input {
+  //               border: 0 !important;
+  //               padding: 0px 0 0;
+  //               border-bottom: 1px solid #ddd !important;
+  //               resize: none;
+  //               height: 40px;
+  //               width: 100%;
+  //               margin: 0;
+  
+  //               @media (max-width:991px) {
+  //                 height: 30px;
+  //               }
+  
+  //               &:focus {
+  //                 outline: none;
+  //               }
+  //             }
+  //           }
+  //         }
+  
+  //         .r-service {
+  //           @media (max-width:767px) {
+  //             width: 100%;
+  //             margin: 0 0 20px;
+  //           }
+  
+  //           h4 {
+  //             font-weight: 500;
+  //             font-size: 20px;
+  //             line-height: 24px;
+  //             color: #010101;
+  //             margin: 0;
+  //           }
+  
+  //           p {
+  //             font-weight: 400;
+  //             font-size: 18px;
+  //             line-height: 23px;
+  //             color: #010101;
+  //             opacity: 0.6;
+  //             margin: 0 0 5px;
+  //           }
+  //         }
+  
+  //         .service-price {
+  //           text-align: right;
+  
+  //           @media (max-width:767px) {
+  //             text-align: left;
+  //             width: 100%;
+  //           }
+  
+  //           p {
+  //             font-weight: 400;
+  //             font-size: 18px;
+  //             line-height: 23px;
+  //             color: #010101;
+  //             opacity: 0.6;
+  //             margin: 0 0 5px;
+  
+  //             @media (max-width:767px) {
+  //               font-size: 16px;
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  
+  //     .sumery {
+  //       margin: 20px 0 0;
+  //       border-top: 1px solid #ddd;
+  //       padding: 20px 0 0;
+  
+  //       h4 {
+  //         font-weight: 500;
+  //         font-size: 20px;
+  //         line-height: 24px;
+  //         color: #010101;
+  //       }
+  
+  //       .sumery-details {
+  //         background: #F6F6F6;
+  //         border: 1px solid #DDDDDD;
+  //         border-radius: 15px;
+  //         padding: 20px;
+  
+  //         @media (max-width:767px) {
+  //           border-radius: 5px;
+  //           padding: 10px;
+  //         }
+  
+  //         p {
+  //           margin: 0 0 10px;
+  //           display: flex;
+  //           justify-content: space-between;
+  //           align-items: center;
+  
+  //           @media (max-width:767px) {
+  //             font-size: 16px;
+  //           }
+  
+  //           &:last-child {
+  //             padding: 10px 0 0;
+  //             border-top: 1px solid #ddd;
+  
+  //             b {
+  
+  //               &:last-child {
+  //                 opacity: 1;
+  //               }
+  //             }
+  //           }
+  
+  //           b {
+  //             opacity: 0.6;
+  //           }
+  //         }
+  //       }
+  //     }
+  
+  //     .submit {
+  //       max-width: 330px;
+  //       margin: 30px auto 0;
+  //       display: table;
+  //     }
+  //   }
+  // }
+  
+  // .redme-modal {
+  //   .modal-content {
+  //     padding-top: 0 !important;
+  //   }
+  
+  //   .modal-body {
+  //     padding-top: 0;
+  
+  //     img {
+  //       width: 100%;
+  //       margin: 0 0 30px;
+  //     }
+  
+  //     h4 {
+  //       font-weight: 800;
+  //       font-size: 20px;
+  //       line-height: 25px;
+  //       text-align: center;
+  //       color: #010101;
+  //     }
+  
+  //     p {
+  //       font-weight: 500;
+  //       font-size: 18px;
+  //       line-height: 23px;
+  //       text-align: center;
+  //       color: rgba(1, 1, 1, 0.69);
+  //       opacity: 0.9;
+  //     }
+  //   }
+  // }
+  
+  // View cart modal
+  
+ 
+
+  
+  
+  // .delete-modal.view-cart .product-items {
+  //   margin-bottom: 20px;
+  //   border-bottom: 1px solid salmon;
+  //   padding-bottom: 10px;
+  
+  //   @media (max-width:767px) {
+  //     flex-direction: column;
+  //   }
+  
+  //   .rightSide {
+  //     @media (max-width:767px) {
+  //       margin: 10px 0 0;
+  //     }
+  //   }
+  // }
+  
+ 
